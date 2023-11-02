@@ -10,9 +10,9 @@ Introduction to APIs. A simple shop that sells walls with a name, price, image, 
 
 ```javascript
 {
-  products: [
+  walls: [
     {
-      product: [String],
+      name: [String],
       img: [String],
       alt: [String],
       price: [Integer],

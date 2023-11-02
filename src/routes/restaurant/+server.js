@@ -94,7 +94,6 @@ export function GET({ url }) {
     ],
   }
   
-  // return json(menu)
   let response = json(menu)
   response.headers.set('Access-Control-Allow-Origin', '*')
   return response
