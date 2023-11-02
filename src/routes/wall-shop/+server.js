@@ -17,7 +17,7 @@ export function GET({ url }) {
       },
       {
         name: 'Unpainted brick wall',
-        img: url.href + '-images/unpainted-brick',
+        img: url.href + '-images/unpainted-brick.jpg',
         alt: 'unpainted brick wall',
         price: 9.9,
       },
