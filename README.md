@@ -22,6 +22,39 @@ Introduction to APIs. A simple shop that sells walls with a name, price, image, 
 }
 ```
 
+## Car Hire
+
+Nested data. A place that hires cars.
+
+**Structure:**
+
+```javascript
+{
+  fast: [
+    {
+      car: [String],
+      description: [String],
+      price: [Integer],
+      img: [String],
+      credit: [String],
+      alt: [String],
+    },
+    ...
+  ],
+  nice: [
+    {
+      car: [String],
+      description: [String],
+      price: [Integer],
+      img: [String],
+      credit: [String],
+      alt: [String],
+    },
+    ...
+  ],
+}
+```
+
 ## Restaurant
 
 More advanced data structure. A restaurant the sells breakfast, dinner, and dessert.
