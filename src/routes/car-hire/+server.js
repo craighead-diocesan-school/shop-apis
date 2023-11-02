@@ -9,7 +9,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/black-lamborghini.jpg',
         credit: 'Adrian N (Unsplash)',
-        alt: '',
       },
       {
         car: 'Orange Lamborghini',
@@ -17,7 +16,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/orange-lamborghini.jpg',
         credit: 'Toni Zaat (Unsplash)',
-        alt: '',
       },
       {
         car: 'Grey Aston Martin',
@@ -25,7 +23,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/grey-aston-martin.jpg',
         credit: 'Alexandru Ivanov (Unsplash)',
-        alt: '',
       },
       {
         car: 'White Bugatti',
@@ -33,7 +30,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/white-bugatti.jpg',
         credit: 'Flavien (username) (Unsplash)',
-        alt: '',
       },
 
       {
@@ -42,7 +38,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/red-ferrari.jpg',
         credit: 'Molim Karbelaei (Unsplash)',
-        alt: '',
       },
     ],
     nice: [
@@ -52,7 +47,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/black-maserati.jpg',
         credit: 'Krysztof Kubicki (Unsplash)',
-        alt: '',
       },
       {
         car: 'Black Mercedes',
@@ -60,7 +54,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/black-mercedes.jpg',
         credit: 'Martin Katler (Unsplash)',
-        alt: '',
       },
       {
         car: 'Green Chevrolet',
@@ -68,7 +61,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/green-chevrolet.jpg',
         credit: 'Markus Spiske (Unsplash)',
-        alt: '',
       },
 
       {
@@ -77,7 +69,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/orange-volks-wagon.jpg',
         credit: 'Oli Woodman (Unsplash)',
-        alt: '',
       },
       {
         car: 'Black MG',
@@ -85,7 +76,6 @@ export function GET({ url }) {
         price: 1500,
         img: url.href + '-images/black-mg.jpg',
         credit: 'Robin Vet (Unsplash)',
-        alt: '',
       },
     ],
   }
