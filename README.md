@@ -1,38 +1,64 @@
-# create-svelte
+# Shop APIs
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A collection of API end points for learning to fetch remote data.
 
-## Creating a project
+## Wall Shop
 
-If you're seeing this, you've probably already done this step. Congrats!
+Introduction to APIs. A simple shop that sells walls with a name, price, image, and alt text.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+**Structure:**
 
-# create a new project in my-app
-npm create svelte@latest my-app
+```javascript
+{
+  products: [
+    {
+      product: [String],
+      img: [String],
+      alt: [String],
+      price: [Integer],
+    },
+    ...
+  ]
+}
 ```
 
-## Developing
+## Restaurant
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+More advanced data structure. A restaurant the sells breakfast, dinner, and dessert.
 
-```bash
-npm run dev
+**Structure:**
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```javascript
+{
+  breakfast: [
+    {
+      item: [String],
+      description: [String],
+      price: [Integer],
+      img: [String],
+      alt: [String],
+    },
+    ...
+  ],
+  dinner: [
+    {
+      item: [String],
+      description: [String],
+      price: [Integer],
+      img: [String],
+      alt: [String],
+    },
+    ...
+  ],
+  dessert: [
+    {
+      item: [String],
+      description: [String],
+      price: [Integer],
+      img: [String],
+      alt: [String],
+    },
+    ...
+  ]
+}
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
